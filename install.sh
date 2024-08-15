@@ -1,8 +1,8 @@
 #!/bin/sh
 printf '\nStart Installing ccminer precompiled....\n'
 
-yes | pkg update && pkg upgrade
-yes | pkg install libjansson wget nano screen
+pkg update && pkg upgrade -y
+pkg install libjansson wget nano screen -y
 
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/ccminer
