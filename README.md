@@ -26,6 +26,12 @@ wget https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/config.j
 wget https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
 ```
+
+OR quick mode
+
+```
+wget https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/install.sh && ./install.sh
+```
 # Usage:
 
 1. Edit your pools, address, worker name:
