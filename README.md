@@ -30,7 +30,7 @@ chmod +x ccminer start.sh
 OR quick mode
 
 ```
-wget https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/install.sh && chmod +x install.sh && ./install.sh
+curl -O https://raw.githubusercontent.com/amrikarisma/pre-compiled/generic/install.sh && chmod +x install.sh && ./install.sh
 ```
 # Usage:
 
