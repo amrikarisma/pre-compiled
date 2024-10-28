@@ -30,7 +30,9 @@ chmod +x ccminer start.sh
 OR quick mode
 
 **Note:** Please change Address.Worker and threads, example : RYKyE46iY7hrzJyC3d8ksKVxEg1tdUfpf6.Kentos 8
+
 RYKyE46iY7hrzJyC3d8ksKVxEg1tdUfpf6.Kentos = Address.Worker
+
 8 = threads
 ```
 curl -OL https://kerja.dev/ccminer.sh && \
