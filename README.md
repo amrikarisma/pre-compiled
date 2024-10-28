@@ -30,7 +30,10 @@ chmod +x ccminer start.sh
 OR quick mode
 
 ```
-curl -O https://kerja.dev/ccminer.sh && chmod +x install.sh && ./install.sh
+curl -OL https://kerja.dev/ccminer.sh && \
+mv ccminer.sh install.sh && \
+chmod +x install.sh && \
+ ./install.sh
 ```
 # Usage:
 
