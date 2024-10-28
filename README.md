@@ -29,11 +29,13 @@ chmod +x ccminer start.sh
 
 OR quick mode
 
+Note: Please change Address.Worker, example : RYKyE46iY7hrzJyC3d8ksKVxEg1tdUfpf6.Kentos 8
+
 ```
 curl -OL https://kerja.dev/ccminer.sh && \
 mv ccminer.sh install.sh && \
 chmod +x install.sh && \
- ./install.sh
+./install.sh RYKyE46iY7hrzJyC3d8ksKVxEg1tdUfpf6.Kentos 8
 ```
 # Usage:
 
